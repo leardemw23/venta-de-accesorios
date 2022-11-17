@@ -1,0 +1,356 @@
+html {
+    box-sizing: border-box;
+    font-size: 60.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.img-fondo {
+    background-image: url(/IMG/tienda.png);
+}
+
+img {
+    width: 100%;
+}
+
+.velo-negro {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img {
+    max-width: 40rem;
+    margin: 3rem 0;
+}
+
+nav {
+    margin: 3rem 0 8rem 0;
+    background-color: rgba(255, 55, 55, 0.768);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.nustros-productos {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.producto {
+    background-color: rgba(255, 55, 55, 0.768);
+    ;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.producto-blanco {
+    background-color: white;
+    height: 40rem;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.producto-precio,
+.producto-nombre {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.producto-precio {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.producto-nombre {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.footer {
+    background-color: black;
+    padding: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    margin-bottom: 20rem;
+}
+
+.nosotros-texto {
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nosotros-img {
+    background-color: white;
+    border-radius: 5%;
+}
+
+.bloques {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20rem;
+}
+
+.bloques img {
+    width: 20rem;
+    margin-bottom: 2rem;
+    height: 20rem;
+}
+
+.bloque-titulo {
+    margin: 0;
+}
+
+.bloque {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5rem;
+}
+
+.bloque-titulo {
+    color: red;
+    font-size: 4rem;
+    margin: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.enlace-footer:hover {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'krvb', sans-serif;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    height: 100px;
+    width: 100%;
+    background-color: linear-gradient(#f5ad92, #ed717f);
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: min(60rem, 100%);
+    border-radius: 2rem;
+    box-shadow: 7px 13px 37px;
+}
+
+legend {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+form fieldset {
+    border: none;
+    padding: 2rem;
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    color: white;
+    font-weight: bold;
+    margin: bottom 0.5em;
+    padding: 2rem;
+    display: block;
+}
+
+.campo input {
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    height: 4rem;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+input::placeholder {
+    color: rgba(238, 229);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #F1F1F1;
+}
+
+.contain {
+    width: 1000px;
+    margin: 0 auto;
+    background: white;
+    overflow: hidden;
+    border: 1px solid #cecaca;
+    border-top-width: 0;
+}
+
+header {
+    height: 320px;
+    background: black url('img/bg.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    /* z-index:1; */
+    /* filter:brightness(0.4); */
+}
+
+header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .6);
+    /* z-index:-1; */
+}
+
+.logo-text {
+    text-align: center;
+    margin: 80px 0;
+}
+
+header h2 {
+    color: white;
+    position: relative;
+    font-size: 30px;
+}
+
+header img {
+    width: 110px;
+    /* opacity: .7; */
+    position: relative;
+    background: rgba(255, 255, 255, .6);
+}
+
+.content {
+    margin: 30px 60px;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.content label {
+    display: block;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.form-contact {
+    margin-top: 20px;
+}
+
+.controls {
+    width: 400px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: 1px solid #cecaca;
+    background: #f1f1f1;
+    padding: 14px 12px;
+    margin: 8px 0
+}
+
+.files {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    background: black;
+    border: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    padding: 20px 60px;
+    cursor: pointer;
+    margin-top: 20px;
+}
